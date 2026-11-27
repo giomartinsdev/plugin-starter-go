@@ -35,7 +35,7 @@ cd ../plugin-starter-go && go build -o contador .
 - Chamadas ao core são síncronas: o mesmo `bufio.Scanner` lê as respostas.
 - O plugin nunca recebe o token do Discord.
 
-Veja [`PROTOCOL.md`](https://github.com/giomartinsdev/discord-plugin-platform/blob/main/PROTOCOL.md).
+O spec completo do protocolo (`PROTOCOL.md`) fica no repositório da plataforma, `giomartinsdev/discord-plugin-platform` (privado).
 
 ## `go run` no manifesto
 
